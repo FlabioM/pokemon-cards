@@ -9,7 +9,7 @@ a {
 }
 
 .container {
-  padding: 40px;
+  padding: 48px;
   display:flex;
   gap: 16px;
   flex-wrap: wrap;
@@ -21,11 +21,12 @@ a {
   border-radius:16px;
   width: 350px;
   position: relative;
+  overflow: hidden;
 
 
 }
 
-.hp-points {
+.hpPoints {
   position: absolute;
   color: orange;
   font-size: 24px;
@@ -36,17 +37,17 @@ a {
 }
 
 .card-header-image {
-  width:80%;
+  width:70%;
   display:flex;
   margin-left: 30px;
-  flex: wrap;
   border: 5px solid darkred;
   position: relative;
+  margin-top: 50px;
 
 
 }
-.pokemon-name {
-  position absolute;
+.pokemonName {
+  position: absolute;
   color: black;
   font-size: 24px;
   top: 20px;
@@ -60,7 +61,7 @@ a {
   padding: 5px;
 }
 
-.pokemon-type {
+.pokemonType {
   width: 35px;
   display: flex;
   position: absolute;
@@ -92,7 +93,7 @@ a {
   display: flex;
 
 }
-.pokemon-type2 {
+.pokemonType2 {
   width: 35px;
   display: flex;
   position: absolute;
@@ -100,7 +101,7 @@ a {
   padding-top: 25px;
 }
 
-.pokemon-type3 {
+.pokemonType3 {
   width: 35px;
   display: flex;
   position: absolute;
@@ -108,7 +109,7 @@ a {
   padding-top: 25px;
 }
 
-.pokemon-type4 {
+.pokemonType4 {
   width: 35px;
   display: flex;
   position: absolute;
@@ -170,15 +171,16 @@ a {
   display: flex;
 }
 
-.pokemon-type5 {
+.pokemonType5 {
   width: 35px;
   display: flex;
   position: center;
   padding-left: 30px;
-  padding-top: 3px;
+  height: 35px;
+  padding-bottom: 10px;
 }
 
-.pokemon-type6 {
+.pokemonType6 {
   width: 35px;
   justify-content: space-between;
   display: flex;
@@ -188,7 +190,7 @@ a {
 
 }
 
-.pokemon-type7 {
+.pokemonType7 {
   width: 35px;
   display: flex;
   position: absolute;
@@ -196,7 +198,7 @@ a {
   padding-top: 3px;
 }
 
-.pokemon-type8 {
+.pokemonType8 {
   width: 35px;
   display: flex;
   position: absolute;
